@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	    <title> Courses </title>
+	 </head>
+		<style>
+		{
+	   padding:0;
+	   margin:0;
+	  }
+    body{
+        background-color:#fff;
+	}
+h1{
+	color:#423780;
+}	
+.items {
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	padding:40px 30px;
+	grid-column-gap:30px;
+	grid-row-gap:50px;
+		
+}	
+.item img{
+	transition: 0.2s ease;
+	cursor:pointer;
+	object-fit:cover;
+}
+.item img:hover{
+	transform:scale(1.04);
+}
+.item h4{
+    padding:3px;
+	text-align:pointer;
+}	
+
+	
+	
+.item button{
+	padding:5px 30px;
+	border:none;
+	outline:none;
+	background-color:green;
+	color:#fff;
+	cursor:pointer;
+	border-radius:4px;
+	margin:0 auto;
+	transition:0.2s all;
+}
+.item button:hover{
+	transform:scale(1.04);
+}
+@media screen and (max-width:1000px){
+	.items{
+		grid-template-columns:repeat(2, 1fr);
+	}
+}
+@media screen and (max-width:768px){
+	.items{
+		grid-template-columns:repeat(1, 1fr);
+	}
+}
+		
+
+		</style>
+	
+
+	<body>
+		<body>
+		<center>
+		<h1> Courses </h1>
+		</center>
+	<section class="items">
+	   <div class="item">
+	        <img width="215px" height="300px"src="english.jpg">
+            <h4>English</h4>
+			<h5>Mr.Roshan</h5> 
+            <button>join</button>
+       </div>  	
+
+         <div class="item">
+	        <img width="215px" height="300px"src="maths.jpg">
+            <h4>Mathamatics </h4>
+			<h5>Mr.Bandara</h5>
+            <button>join</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="215px" height="300px"src="sci.jpg">
+            <h4> Science</h4>
+			<h5>Ms.Nirmali</h5>
+            <button>join</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="215px" height="300px" src="hist.jpg">
+            <h4> History</h4>
+			<h5>Mr.Yapa</h5>
+            <button>join</button>
+       </div>  	
+         
+		 <div class="item">
+	        <img width="215px" height="300px" src="it.jpg">
+            <h4> Information Technology</h4>
+			<h5>Mr.Marco</h5>
+            <button>join</button>
+       </div>  	
+	 
+		 <div class="item">
+	        <img width="215px" height="300px" src="gd.jpg">
+            <h4> Grapgic Design </h4>
+			<h5>Mr.Will</h5>
+            <button>join</button>
+       </div>  	
+	
+		
+		 <div class="item">
+	        <img width="215px" height="300px" src="helth.jpg">
+            <h4> Helthcare </h4>
+			<h5>Dr.Lakshan</h5>
+            <button>join</button>
+       </div>  	
+	
+
+	</section>
+
+
+	
+	</body>
+</html>	
